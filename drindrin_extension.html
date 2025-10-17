@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,19 @@
     <title>Utilitário SEI</title>
 </head>
 <body>
-    <h3>Utilitários do SEI</h3>
+    <h2>Utilitários do SEI</h2>
     <div>
         <button id="bt-endereco">Montar endereço</button>
     </div>
     <div id="montar-endereço">
-        Montar endereço
+        <div class="form-group">
+            <label for="dados-servidor">Dados do servidor(a)</label>
+            <textarea id="dados-servidor" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="dados-formatados">Dados formatados</label>
+            <textarea id="dados-formatados" rows="4"></textarea>
+        </div>
     </div>
     <script src="drindrin_extension.js"></script>
 </body>
