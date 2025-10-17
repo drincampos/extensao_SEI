@@ -30,6 +30,17 @@ button:active {
     transform: scale(0.98);
 }
 
+.btn-secondary {
+    background-color: #2196F3;
+    padding: 8px 16px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.btn-secondary:hover {
+    background-color: #1976D2;
+}
+
 #montar-endereço {
     display: none;
     margin-top: 20px;
