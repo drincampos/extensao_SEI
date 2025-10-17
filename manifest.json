@@ -1,0 +1,13 @@
+{
+    "name": "Drindrin Utils",
+    "description": "Extensão para facilitar o trabalho do Drindrin",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "drindrin_extension.html",
+        "default_icon": {
+            "16": "drindrin_extension.png"
+        }
+    },
+    "permissions": ["activeTab"]
+}
